@@ -1,0 +1,163 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/* typography
+===============*/
+
+h1 {
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin-top: 0;
+}
+
+p {
+	margin-top: 0;
+	line-height: 1.5;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+@media (min-width:60rem) {
+    .title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:960px) {
+    .title {
+        padding-top: 4em;
+    }
+}
+
+/* Parallax
+=================== */
+
+.parallax--bg,
+.parallax--box {
+	transition: initial;
+}
+
+/* Header
+===============*/
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+    color: #FFF;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #DDD;
+}
+
+@media (min-width:60rem) {
+    .logo {
+        float: left;
+    }
+    nav {
+        float: right;
+    }
+}
+
+/* home-front
+===========*/
+
+.home-front {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    color: #FFF;
+}
+
+@media (min-width: 60rem) {
+    .home-front {
+        height: 100vh;
+        padding-top: 35vh;
+    }
+
+}
+
+/* home-about
+===========*/
+
+.home-about {
+    padding: 10em;
+}
+
+li {
+    text-align: left;
+}
+
+.home-about-textbox {
+    float: left;
+    background-color: #FFF;
+    padding: 4.2em;
+    margin-left: -5%;
+    width: 55%;
+    outline: 2px solid lightcoral;
+    outline-offset: -2.5em;
+    position: relative;
+}
+
+.home-about-pic {
+    float: right;
+    display: flex;
+    width: 40%;
+    padding: 0.5em;
+    margin-bottom: 10em;
+}
+
+@media (max-width: 768px) {
+    .home-about-textbox {
+        margin: auto 0;
+        float: initial;
+    }
+}
+
