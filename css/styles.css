@@ -20,9 +20,6 @@ img {
     margin: 0 auto;
 }
 
-/* typography
-===============*/
-
 h1 {
     font-weight: 300;
     font-size: 1.7rem;
@@ -129,6 +126,7 @@ nav a:focus {
 
 .home-about {
     padding: 10em;
+    overflow: auto;
 }
 
 li {
@@ -160,4 +158,3 @@ li {
         float: initial;
     }
 }
-
