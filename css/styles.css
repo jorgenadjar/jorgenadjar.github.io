@@ -83,7 +83,7 @@ nav a {
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: 0.8rem;
     padding: .5em;
     color: #FFF;
 }
@@ -126,6 +126,7 @@ nav a:focus {
 
 .home-about {
     padding: 10em;
+    padding-bottom: 5em;
     overflow: auto;
 }
 
