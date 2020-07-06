@@ -188,3 +188,10 @@ li {
     }
 
 }
+
+@media screen and (min-width:426px) {
+    .parallax--bg, 
+    .parallax--box {
+        display: none;
+    }
+}
