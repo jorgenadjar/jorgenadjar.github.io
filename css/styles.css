@@ -187,9 +187,8 @@ li {
         display: flex;
     }
 
-    .parallax--bg, 
-    .parallax--box {
-        display: none;
+    .parallax--bg {
+        background-attachment: inherit;
     }
 
 }
