@@ -186,9 +186,4 @@ li {
     .home-about-pic {
         display: flex;
     }
-
-    .parallax--bg {
-        background-attachment: inherit;
-    }
-
 }
