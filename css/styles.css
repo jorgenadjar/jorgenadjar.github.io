@@ -102,6 +102,10 @@ nav a:focus {
     }
 }
 
+@media (max-width:768px) {
+
+}
+
 /* home-front
 ===========*/
 
@@ -147,15 +151,40 @@ li {
 
 .home-about-pic {
     float: right;
-    display: flex;
     width: 40%;
     padding: 0.5em;
     margin-bottom: 10em;
 }
 
-@media (max-width: 768px) {
-    .home-about-textbox {
-        margin: auto 0;
-        float: initial;
+@media (max-width: 1024px) {
+
+    .home-about {
+        overflow: hidden;
     }
+
+    .home-about-textbox {
+        width: auto;
+        float: none;
+        padding: 5em;
+        margin: 0 auto;
+        display: table;
+        text-align: center;
+    }
+
+    .home-about-pic {
+        float: none;
+        width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .home-about {
+        display: inline;
+    }
+
+    .home-about-pic {
+        display: flex;
+    }
+
 }
