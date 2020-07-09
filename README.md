@@ -1,1 +1,1 @@
-# My personal website: jorgenadjar.github.io
+<h2 align="center"> jorgenadjar.github.io </h2>
