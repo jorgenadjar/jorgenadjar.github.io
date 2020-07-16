@@ -78,7 +78,7 @@ nav li {
 }
 
 nav a {
-    font-weight: 900;
+    font-weight: 950;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -108,14 +108,8 @@ nav a:focus {
     background-position: center;
     padding: 10em 0;
     color: #FFF;
-}
-
-@media (min-width: 60rem) {
-    .home-front {
-        height: 100vh;
-        padding-top: 35vh;
-    }
-
+    height: 100vh;
+    padding-top: 35vh;
 }
 
 /* home-about */
